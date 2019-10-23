@@ -9,14 +9,14 @@ type Msg
     = LinkClicked Browser.UrlRequest
     | UrlChanged Url.Url
 
-type Model = String
+type alias Model = (String, Key)
 
 type Flags = Nothing
 
 subscriptions model = Sub.batch []
 
 init () url key = 
-    ("foo", Cmd.none)
+    (("foo", key), Cmd.none)
 
 
 update msg model =
@@ -33,8 +33,7 @@ view model =
     Page "Hello Elm" [Html.text "Hello, Elm, World"]
 
 
---main : Program Flags Model Msg
-main : Program () String Msg
+main : Program () Model Msg
 main =
     Browser.application
         { init = init

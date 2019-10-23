@@ -1,5 +1,4 @@
 import {Elm} from "./Main.elm";
 
 const div = document.getElementById("main");
-const app = Elm.LoginApp.init({node: div});
-        
+const app = Elm.Main.init({node: div});
