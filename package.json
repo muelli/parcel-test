@@ -1,0 +1,10 @@
+{
+  "name": "parceltest2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tobias Mueller <muelli@cryptobitch.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
