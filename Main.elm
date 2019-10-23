@@ -3,6 +3,7 @@ module Main exposing (..)
 import Browser
 import Browser.Navigation exposing (Key, load, pushUrl, reloadAndSkipCache)
 import Html
+import Html.Attributes exposing (class)
 import Url
 
 type Msg
@@ -30,7 +31,7 @@ type alias Page msg =
     }
 
 view model =
-    Page "Hello Elm" [Html.text "Hello, Elm, World"]
+    Page "Hello Elm" [Html.div [class "bg-primary"] [Html.text "Hello, Elm, World"]]
 
 
 main : Program () Model Msg
