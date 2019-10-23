@@ -1,7 +1,10 @@
+import '@babel/polyfill';
+
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+//import 'es6-promise/auto';
 import * as libsodium from "libsodium-wrappers";
 import * as naclutil from "tweetnacl-util";
 
