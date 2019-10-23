@@ -1,5 +1,9 @@
 {
   "name": "parceltest2",
+  "browserlist": [
+    "last 1 version",
+    "IE11 >= 11"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "author": "Tobias Mueller <muelli@cryptobitch.de>",
