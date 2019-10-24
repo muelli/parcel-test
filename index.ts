@@ -20,4 +20,4 @@ import {Elm} from "./Main";
 const should_break = document.getElementByIdd("main");
 const should_break_too = document.getElementById(42);
 const div = document.getElementById("main");
-const app = Elm.Main.init({node: div});
+const app = Elm.Main.init({nodee: div});
