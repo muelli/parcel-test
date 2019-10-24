@@ -15,8 +15,7 @@ export function sodium_init() {
 export const utf8enc = naclutil.encodeUTF8;
 export const utf8dec = naclutil.decodeUTF8;
 
-                        
-import {Elm} from "./Main.elm";
+import {Elm} from "./Main";
 
 const should_break = document.getElementByIdd("main");
 const should_break_too = document.getElementById(42);
