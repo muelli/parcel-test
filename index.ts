@@ -21,3 +21,7 @@ const should_break = document.getElementByIdd("main");
 const should_break_too = document.getElementById(42);
 const div = document.getElementById("main");
 const app = Elm.Main.init({nodee: div});
+
+const should_compile: string = "asdf";
+const should_complain: number = "asdf";
+console.log("yo", should_complain, should_break);
